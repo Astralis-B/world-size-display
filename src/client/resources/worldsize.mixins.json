@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.astralis.worldsize.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "client-worldsize.mixins.refmap.json",
+  "client": [
+    "WorldListEntryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

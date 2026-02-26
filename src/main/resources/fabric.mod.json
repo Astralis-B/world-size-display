@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "world-size-display",
+  "version": "${version}",
+  "name": "World Size Display",
+  "description": "Muestra el tamaño del mundo en la pantalla de selección.",
+  "authors": ["Astralis"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.astralis.worldsize.WorldSizeMod"],
+    "client": ["com.astralis.worldsize.WorldSizeClient"]
+  },
+  "mixins": [
+    "worldsize.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "icon": "assets/world-size-display/icon.png"
+}
